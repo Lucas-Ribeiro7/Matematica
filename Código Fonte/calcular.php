@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Matemática</title>
 </head>
-<body>
+<body background="Imagens/Matematica.jpg" bgproperties="fixed"> 
     <?php
         include_once 'funcoes.php';
             $num = $_POST['num'];
