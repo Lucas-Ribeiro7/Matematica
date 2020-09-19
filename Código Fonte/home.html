@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematica</title>
+</head>
+<body>
+
+    <form action="calcular.php" method="POST">
+        <label>Digite um Numero:</label>
+        <input type="number" name="num" required>
+        <br>
+        <br>
+        <h3>Escolha uma das opções:</h3>
+        <select name="escolha" size="5" required>
+           <option value="posit_negati">Veja se ele é Postivo, Negativo ou Neutro</option>
+           <option value="par_impar">Veja se o número é Par ou Impar</option>
+           <option value="tabuada">Veja a Tabuada</option>
+           <option value="raiz-quadrada">Veja a Raiz Quadrada</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" name="button" value="Simbora">
+    </form>
+    
+</body>
+</html>
