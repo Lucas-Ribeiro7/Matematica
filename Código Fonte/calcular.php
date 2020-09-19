@@ -13,13 +13,16 @@
 
             switch($escolha){
                 case 'posit_negati' :
-                    $escolha = posi_negat($num);
+                    posi_negat($num);
                 break;
                 case 'par_impar' :
-                    $escolha = par_impar($num);
+                    par_impar($num);
                 break;
                 case 'tabuada' :
-                    $escolha = tabuada($num);
+                    tabuada($num);
+                break;
+                case 'raiz-quadrada' :
+                    raizQuadrada($num);
                 break;
             }
     ?>

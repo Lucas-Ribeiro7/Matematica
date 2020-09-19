@@ -1,0 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+}div.borda{
+    border-radius: 15px;
+    font-style: normal 10px;   
+}

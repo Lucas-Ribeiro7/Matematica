@@ -22,3 +22,7 @@ function tabuada($num){
         echo "<p>" . $num . " x " . $i . " = " . ($num*$i) . "</p>";
     }
 }
+
+function raizQuadrada($num){
+    echo "<p>A Raiz quadrada de $num é " . sqrt($num);
+}
